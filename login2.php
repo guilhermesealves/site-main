@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
-    <div class="login">
+  <form action="login.php" method="post">
+  <div class="login">
         <form>
             <h2>Login ONG </h2>
             
@@ -24,6 +25,7 @@
             <button type="submit">ENTRAR!</button>
           </form>    
     </div>
-    
+  </form>
+   
 </body>
 </html>

@@ -91,7 +91,7 @@
 
                 <div class="buttons">
                     <div class="continue-button">
-                        <button>Cadastrar<</button>
+                        <button>Cadastrar</button>
                     </div>
     
                     <div class="voltar-button">
@@ -104,11 +104,6 @@
 
     <script src="loading.js"></script>
 </body>
-
-<div class="loading">
-  <label>Loading</label>    
-</div>
-
 
 
 

@@ -25,8 +25,9 @@
         </div>
         <div class="menu">
             <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="#animais-adocao">Quero Adotar</a></li>
+                <li><a href="animais.php">PETS</a></li>
                 <li><a href="#sobre-nos">Sobre Nós</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="login2.php">Administração</a></li>
@@ -74,7 +75,7 @@
                                     <p class="card-text">Procurando por um amigo de quatro patas? Conheça James, um
                                         cachorro
                                         carinhoso e leal que adora passar tempo com pessoas e outros cachorros.</p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +88,7 @@
                                     <p class="card-text">Procurando por um gato independente e charmoso? Conheça
                                         Pantera, um
                                         gato astuto com uma personalidade forte e com um espírito livre</p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +103,7 @@
                                         gentil e brincalhona. Ela está procurando por um lar onde possa ser amada e
                                         cuidada.
                                     </p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +117,7 @@
                                         cochilando ao sol. Ela está procurando por um lar tranquilo onde possa ser feliz
                                         e
                                         confortável.</p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +135,7 @@
                                         brincalhão que adora passar tempo com humanos e outros gatos se exibindo com as
                                         suas
                                         brincadeiras</p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +148,7 @@
                                     <p class="card-text">Conheça Bella, uma cachorra de raça mista com uma personalidade
                                         forte e
                                         leal. Ela está pronta para encontrar um lar onde possa ser amada e cuidada.</p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +162,7 @@
                                         Nicolau, um
                                         gato astuto e cheio de personalidade que está esperando um lar para ter grandes
                                         companhias</p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +177,7 @@
                                         aventuras, Apolo é o companheiro perfeito. Ele é corajoso, alegre e cheio de
                                         energia.
                                     </p>
-                                    <a href="queroadotar.html" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
                                 </div>
                             </div>
                         </div>

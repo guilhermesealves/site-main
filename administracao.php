@@ -10,6 +10,7 @@
 <body>
     <div class="container mt-5">
     <a href="ver_usuarios.php"><button>Usuários</button></a>
+    <a href="adicionar-pet.php"><button>Adicionar-PET</button></a>
     </div>    
 </body>
 </html>
