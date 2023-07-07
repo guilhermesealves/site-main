@@ -52,8 +52,12 @@
             while($um_pet = mysqli_fetch_assoc($todos_os_pets)):
                 ?>
                 <div class="col-md-3 text-center mb-4">
-                    <img src="<?php echo $um_pet["Foto"];?>" class="img-fluid" style="object-fit: cover; height: 150px; width: 100%; object-position: top center;">
+                    <div class="card-body">
+                        
+                    <img src="<?php echo $um_pet["Foto"];?>" class="img-fluid" style="object-fit: cover; height: 150px; width: 250px; object-position: top center;">
                     <h5 class="mt-3 mb-3"><?php echo $um_pet["Nome"];?></h5>
+                    </div>
+                    
                     <?php 
                         
                     ?>
