@@ -20,6 +20,22 @@
 
 
     ?>
+    <header>
+        <div class="logo">
+            <img src="imagem/logo-menor.png" alt="logo do nav">
+        </div>
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#animais-adocao">Quero Adotar</a></li>
+                <li><a href="animais.php">PETS</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="login2.php">Administração</a></li>
+
+            </ul>
+        </div>
+    </header>
     <div class="row">
             <?php
             $servidor_bd = "127.0.0.1";
