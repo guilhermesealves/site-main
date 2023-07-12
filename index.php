@@ -26,7 +26,6 @@
         <div class="menu">
             <ul class="nav-links">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="#animais-adocao">Quero Adotar</a></li>
                 <li><a href="animais.php">PETS</a></li>
                 <li><a href="#sobre-nos">Sobre Nós</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -68,7 +67,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/james.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/james.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 
                                     <h5 class="card-title text-roxo">James</h5>
@@ -82,7 +81,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/cardgato.png" class="card-img-top" alt="...">
+                                <img src="./imagem/cardgato.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Pantera</h5>
                                     <p class="card-text">Procurando por um gato independente e charmoso? Conheça
@@ -95,7 +94,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/card3.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/card3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Castanha</h5>
                                     <p class="card-text">Conheça Castanha, uma cachorra de porte médio com uma
@@ -110,7 +109,7 @@
 
                         <div class="col" class="tagline">
                             <div class="card">
-                                <img src="/imagem/gatinhi1.png" class="card-img-top" alt="...">
+                                <img src="./imagem/gatinhi1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Pandora</h5>
                                     <p class="card-text">Pandora é uma gata preguiçosa e adorável que adora passar horas
@@ -127,7 +126,7 @@
                     <div class="row mt-5">
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/gatinho.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/gatinho.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Linho</h5>
                                     <p class="card-text">Procurando por um amigo felino? Conheça Linho, um gato curioso
@@ -142,7 +141,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/card2.webp" class="card-img-top" alt="...">
+                                <img src="./imagem/card2.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Bella</h5>
                                     <p class="card-text">Conheça Bella, uma cachorra de raça mista com uma personalidade
@@ -155,7 +154,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/gatoviralata.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/gatoviralata.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Nicolau</h5>
                                     <p class="card-text">Procurando por um gato independente e charmoso? Conheça
@@ -169,7 +168,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/card4.webp" class="card-img-top" alt="...">
+                                <img src="./imagem/card4.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Apolo</h5>
                                     <p class="card-text">Se você está procurando por um cachorro para acompanhá-lo em

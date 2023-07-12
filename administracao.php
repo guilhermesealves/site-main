@@ -8,9 +8,23 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+        <div class="logo">
+            <img src="imagem/logo-menor.png" alt="logo do nav">
+        </div>
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="administracao.php">Administração</a></li>
+
+            </ul>
+        </div>
+    </header>
+
     <div class="container mt-5">
-    <a href="ver_usuarios.php"><button>Usuários</button></a>
-    <a href="adicionar-pet.php"><button>Adicionar-PET</button></a>
+    <a href="ver_usuarios.php"><button type="button" class="btn btn-warning bt-roxo">Ver Usuário</button></a>
+    <a href="adicionar-pet.php"><button type="button" class="btn btn-warning bt-roxo">Adicionar PET</button>
+</a>
     </div>    
 </body>
 </html>

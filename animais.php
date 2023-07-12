@@ -28,51 +28,46 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-        </div>
-        <?php
-        $servidor_bd = "127.0.0.1";
-        $usuario_bd = "root";
-        $senha_bd = "";
-        $banco_de_dados = "banco_cadastro";
+            <?php
+            $servidor_bd = "127.0.0.1";
+            $usuario_bd = "root";
+            $senha_bd = "";
+            $banco_de_dados = "banco_cadastro";
 
-        $conexao = mysqli_connect($servidor_bd, $usuario_bd, $senha_bd, $banco_de_dados);
+            $conexao = mysqli_connect($servidor_bd, $usuario_bd, $senha_bd, $banco_de_dados);
 
-        $sql_buscar = "select * from pet";
+            $sql_buscar = "select * from pet";
 
-        $todos_os_pets = mysqli_query($conexao, $sql_buscar);
+            $todos_os_pets = mysqli_query($conexao, $sql_buscar);
 
-        while ($um_pet = mysqli_fetch_assoc($todos_os_pets)) :
-        ?>
-            <div class="col-md-3 text-center mb-4">
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=<?php echo $um_pet["Foto"]; ?> class="img-fluid" style="object-fit: cover; height: 150px; width: 250px; object-position: top center;" <div class="card-body">
+            while ($um_pet = mysqli_fetch_assoc($todos_os_pets)) :
+            ?>
+                <div class="col-md-3 text-center mb-4">
+                    <img src="<?php echo $um_pet["Foto"]; ?>" class="img-fluid" style="object-fit: cover; height: 150px; width: 100%; object-position: top center;">
                     <h5 class="mt-3 mb-3"><?php echo $um_pet["Nome"]; ?></h5>
                     <h6 class="mt-3 mb-3" style="color:<?php echo $cor; ?>"><?php echo $um_pet["Descricao"]; ?></h6>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+
                 </div>
-            </div>
-            <div class="card-body">
 
-                <img src="<?php echo $um_pet["Foto"]; ?>" class="img-fluid" style="object-fit: cover; height: 150px; width: 250px; object-position: top center;">
-                <h5 class="mt-3 mb-3"><?php echo $um_pet["Nome"]; ?></h5>
-            </div>
 
-            <a href="<?php echo $um_pet["Nome"]; ?>" class="btn btn-outline-primary">Quero Adotar</a>
+
+            <?php
+            endwhile;
+
+
+            mysqli_close($conexao);
+            ?>
+        </div>
     </div>
-<?php
-        endwhile;
-        mysqli_close($conexao);
-?>
-</div>
-</div>
+    </div>
 
 
-<script src="./js/scrollReveal.js"></script>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/scrollReveal.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
