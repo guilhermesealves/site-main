@@ -56,7 +56,7 @@ mysqli_close($conexao);
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form action="salvar-pet-editado.php?id=<?php echo $id; ?>" method="post"> 
+                <form action="salvar-pet-editado.php?id=<?php echo $id; ?>" method="post" enctype="multipart/form-data"> 
                     Nome: <input name="nome" value="<?php echo $nome; ?>"> <br> <br>
                     Foto: <input type="file" class="form-control" name="foto" placeholder="Foto"> <br>
                     Descrição: <input name="descricao" value="<?php echo $descricao; ?> "><br> <br>

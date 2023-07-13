@@ -1,19 +1,27 @@
 <?php
 
-$id = $_POST["id"];
+$id = $_GET["id"];
 $nome = $_POST['nome'];
-$foto = $_POST["foto"];
+$foto= $_POST['foto'];
 $descricao = $_POST["descricao"];
 
 include "conexao.php";
 
-$sql_editar_pet = "uptade pet set Nome = '$nome', Foto = '$foto', Descricao = '$descricao' where ID = '$id'";
+$pasta = "img/";
+$nomeFotoAntigo = $_FILES["foto"]["name"];
+$partes = explode(".",$nomeFotoAntigo);
+$fotoNovo =  $pasta . round(microtime(true)) . ".". end($partes);
+
+move_uploaded_file($_FILES["foto"]["tmp_name"], $fotoNovo);
+
+
+$sql_editar_pet = "UPDATE pet set Nome = '$nome', Foto = '$fotoNovo', Descricao = '$descricao' where id = '$id'";
 
 $um_pet =  mysqli_query($conexao, $sql_editar_pet);
 
 mysqli_close($conexao);
 
-header("location:ver-pet.php?msg=sucesso"); 
+header("location:animais.php?msg=sucesso"); 
 
 
 

@@ -21,7 +21,7 @@
 
     <header>
         <div class="logo">
-            <img src="imagem/logo-menor.png" alt="logo do nav">
+            <img src="./imagem/logo-menor.png" alt="logo do nav">
         </div>
         <div class="menu">
             <ul class="nav-links">
@@ -41,7 +41,7 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/imagem/fotinho-carrosel.png" class="d-block w-100 " alt="primeira foto do carrosel ">
+                        <img src="./imagem/fotinho-carrosel.png" class="d-block w-100 " alt="primeira foto do carrosel ">
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

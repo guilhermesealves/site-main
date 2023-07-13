@@ -55,13 +55,11 @@
         </div>
       </div>
       <div class="form-check d-flex justify-content-center mb-4">
-      <button type="submit" class="btn btn-primary btn-block mb-4">Adicionar
-
-        <div class="loader-wrapper"></div>
-
-
-        </button>
+      <a href="animais.php"><button type="submit" class="btn btn-outline-warning bt-roxo">Adicionar</button></a>
       </div>
+
+      <a href="administracao.php" class="btn btn-outline-warning bt-roxo">Voltar</a>
+
 
   </form>
 </body>
