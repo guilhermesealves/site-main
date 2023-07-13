@@ -60,7 +60,7 @@ mysqli_close($conexao);
                     Nome: <input name="nome" value="<?php echo $nome; ?>"> <br> <br>
                     Foto: <input type="file" class="form-control" name="foto" placeholder="Foto"> <br>
                     Descrição: <input name="descricao" value="<?php echo $descricao; ?> "><br> <br>
-                    <button class="btn btn-outline-warning bt-roxo">Quero Adotar</button>
+                    <button class="btn btn-outline-warning bt-roxo">Salvar e Editar</button>
                 </form>
 
 
