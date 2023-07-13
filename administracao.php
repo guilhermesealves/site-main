@@ -23,7 +23,9 @@
 
     <div class="container mt-5">
     <a href="ver_usuarios.php"><button type="button" class="btn btn-warning bt-roxo">Ver Usuário</button></a>
-    <a href="adicionar-pet.php"><button type="button" class="btn btn-warning bt-roxo">Adicionar PET</button>
+    <a href="adicionar-pet.php"><button type="button" class="btn btn-warning bt-roxo">Adicionar PET</button></a>
+    <a href="ver-pet.php"><button type="button" class="btn btn-warning bt-roxo">Adicionar PET</button></a>
+
 </a>
     </div>    
 </body>

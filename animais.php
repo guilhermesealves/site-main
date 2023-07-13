@@ -28,7 +28,7 @@
         </div>
     </header>
 
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
             <?php
             $servidor_bd = "127.0.0.1";
@@ -43,21 +43,23 @@
             $todos_os_pets = mysqli_query($conexao, $sql_buscar);
 
             while ($um_pet = mysqli_fetch_assoc($todos_os_pets)) :
-            ?>
-                <div class="col-md-3 text-center mb-4">
-                    <img src="<?php echo $um_pet["Foto"]; ?>" class="img-fluid" style="object-fit: cover; height: 150px; width: 100%; object-position: top center;">
-                    <h5 class="mt-3 mb-3"><?php echo $um_pet["Nome"]; ?></h5>
-                    <h6 class="mt-3 mb-3" style="color:<?php echo $cor; ?>"><?php echo $um_pet["Descricao"]; ?></h6>
-                    <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+            ?> 
+            
+            <div class="col-md-3 text-center mb-4 mt-5">
+                    <div class="card">
+                        <img src=<?php echo $um_pet["Foto"]?> class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="mt-3 mb-3"><?php echo $um_pet["Nome"]; ?></h5>
+                        <h6 class="mt-3 mb-3"><?php echo $um_pet["Descricao"]; ?></h6>
 
+                            <a href="queroadotar.php" class="btn btn-outline-warning bt-roxo">Quero Adotar</a>
+                        </div>
+                    </div>
                 </div>
 
-
-
             <?php
+
             endwhile;
-
-
             mysqli_close($conexao);
             ?>
         </div>
